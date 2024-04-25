@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #33333300;
+    color: white;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+
+.logo img {
+    max-height: 25px;
+    margin-right: 29px;
+}
+
+nav a {
+    color: #05051F;
+    text-decoration: none;
+    padding: 3px ;
+    margin: 0 5px;
+    
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #17ABBF;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+
+}
+nav a:hover {
+    color: #17ABBF; 
+}
+
+.auth {
+    margin-left: auto;
+}
+
+.container {
+    max-width: 100%;
+    margin: 10px auto;
+    
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .text {
+    flex: 1;
+    margin-left: 3%;
+    
+  }
+  
+  h1 {
+    text-align: left;
+    color:#17ABBF;
+    font-size: 380%;
+    
+  }
+
+  p {
+    text-align: left;
+    color:#05051F;
+    font-weight: bold;
+    font-size: 250%;
+  }
+  
+  .descubrelo {
+    padding: 12px 35px;
+    margin-left: 26%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .imagen-con-clase {
+    width: 30%; 
+    height: 30%;
+    margin-right: 6%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      }
+      h1, p {
+        text-align: justify;
+      }
+    
+      
+      
+  }
+
+@media only screen and (min-width: 768px) {
+    section {
+        flex-direction: row;
+    }
+}
+.container2 {
+    max-width: 99%;
+    margin: 1px auto;
+    margin-top: 2%;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text2 {
+    flex: 3;
+    margin-left: 6%;
+    
+  }
+
+h1 {
+    text-align:justify;
+    margin-top: 13%;
+  }
+  
+  .vision {
+    text-align:justify;
+    font-size: large;
+    
+  }
+  
+  .imagen-con-clase2 {
+    width: 35%; 
+    height: auto3;
+    margin-right: 12%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .content2 {
+      flex-direction:row-reverse;
+    }
+  
+    h1 {
+      text-align: justify;
+    }
+    .vision{
+      text-align: justify;
+      font-size: 100%;
+    }
+  
+    
+  }
+
+
+.rectangle {
+    background-color: #05051F;
+    width: 100%;
+    margin-top: 2%;
+    height: 30%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-right: 2%;
+    
+}
+
+.descriptions {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content:space-around;
+    padding: 5px;
+    
+}
+
+.description {
+    font-size: 100%;
+    align-items: center;
+    text-align:center;
+   
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  
+}
+
+.rectangle2 {
+    background-color: #05051F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .rectangle2 a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+  }
+  
+  .divider {
+    display: none;
+    padding: 0.5%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .divider {
+      border-right: 1px solid white;
+      display: inline-block;
+      height: 10px;
+      margin: 0 10px;
+    }
+  }

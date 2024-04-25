@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #33333300;
+  color: white;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+
+.logo img {
+  max-height: 25px;
+  margin-right: 29px;
+}
+
+nav a {
+  color: #05051F;
+  text-decoration: none;
+  padding: 3px ;
+  margin: 0 5px;
+  
+}
+button{
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #17ABBF;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+
+}
+nav a:hover {
+  color: #17ABBF; 
+}
+
+.auth {
+  margin-left: auto;
+}
+
+.container {
+  max-width: 99%;
+  margin: 1px auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 3;
+  margin-left: 6%;
+  
+}
+
+h1 {
+  text-align:justify;
+  margin-top: 5%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h2{
+  text-align: left;
+  margin-top: 5%;
+  color: #17ABBF;
+  font-size: x-large;
+}
+
+p {
+  text-align:justify;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.imagen-con-clase {
+  width: 35%; 
+  height: auto;
+  margin-right: 3%;
+  margin-top: 12%;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+
+  h1  {
+    text-align: left;
+    color: #05051F;
+    text-decoration: underline;
+  }
+
+  h2{
+    text-align: left;
+    color: #17ABBF;
+  }
+
+  p{
+    text-align: left;
+  }
+
+  .imagen-con-clase {
+    max-width: 50%;
+  }
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+}
+.rectangle {
+    background-color: #05051F;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-right: 2.5%;
+}
+
+.descriptions {
+    display: flex;
+    color: white;
+    justify-content:space-around;
+    padding: 6px;
+    
+}
+
+.description {
+    font-size: 100%;
+    align-items: center;
+    text-align:center;
+   
+}
+
+.rectangle2 {
+    background-color: #05051F;
+    color: white;
+    padding: 2.5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .rectangle2 a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+  }
+  
+  .divider {
+    display: none;
+    padding: 0.5%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .divider {
+      border-right: 1px solid white;
+      display: inline-block;
+      height: 10px;
+      margin: 0 10px;
+    }
+  }

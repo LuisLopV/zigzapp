@@ -1,0 +1,74 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="/Estilos/StyleUsuario.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="Home.html">
+            <img src="/Imagenes/ZigZapp_L.png" alt="Logo">
+        </a>
+    </div>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Conocenos.html">Conócenos</a>
+        <a href="Descargas.html">Descarga</a>
+    </nav>
+    <div class="auth">
+        <a href="#">Iniciar sesión</a>
+        <a href="/RegistroUsuario.html">
+            <button>Registrarme</button>
+          </a>
+    </div>
+</header>
+<main>
+    <form id="registrationForm" action="#" method="POST">
+        <label for="nombre1">Nombre 1:</label>
+        <input type="text" name="nombre1" required>
+        <label for="nombre2">Nombre 2:</label>
+        <input type="text" name="nombre2">
+        <label for="apellido1">Apellido 1:</label>
+        <input type="text" name="apellido1" required>
+        <label for="apellido2">Apellido 2:</label>
+        <input type="text" name="apellido2">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="email" required>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" name="fechaNacimiento" required>
+        <label for="fotoCedula">Foto de la Cédula:</label>
+        <input type="file" name="fotoCedula" accept="image/*" required>
+        <label for="grupoSanguineo">Grupo Sanguíneo:</label>
+        <input type="text" name="grupoSanguineo" required>
+        <label for="marcaMoto">Marca de la Moto:</label>
+        <input type="text" name="marcaMoto" required>
+        <label for="cilindrajeMoto">Cilindraje de la Moto:</label>
+        <input type="text" name="cilindrajeMoto" required>
+        <label for="placaMoto">Placa de la Moto:</label>
+        <input type="text" name="placaMoto" required>
+        <label for="fotoMoto">Foto de la Motocicleta:</label>
+        <input type="file" name="fotoMoto" accept="image/*" required>
+        <a href="/RegistroUsuario.html">
+            <button>Registrarme</button>
+          </a>
+    </form>
+    <script src="/Funciones/ScriptRegistro.js"></script>
+</main>
+<aside>
+    <p>Sidebar Content Here</p>
+</aside>
+<footer>
+    <div class="rectangle2">
+        <a href="/Conocenos.html">Conócenos</a>
+        <span class="divider"></span>
+        <a href="/Legal.html">Legal</a>
+        <span class="divider"></span>
+        <a href="/Proximamente.html">Próximamente</a>
+        <span class="divider"></span>
+        <a href="/Descargas.html">Descarga tu app</a>
+      </div>
+</footer>
+</body>
+</html>
